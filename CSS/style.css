@@ -476,7 +476,7 @@ input[type="checkbox"]{
 }
 
 .content .featured .game-img ul li:hover::before{
-  background-color: rgba(20, 20, 21, 0.67);
+  background-color: var(--orange);
 }
 
 .content .featured .game-img ul li span,
@@ -662,7 +662,7 @@ input[type="checkbox"]{
 }
 
 .content .featured .game-info .info .content .platforms a:hover{
-  background-color: rgba(20, 20, 21, 0.67);
+  background-color: var(--orange);
 }
 
 .content .featured .game-info .info .content .platforms img{
@@ -738,4 +738,5 @@ input[type="checkbox"]{
   width: 148px;
   height: 153px;
   border-radius: 10px;
+  cursor: pointer;
 }
