@@ -65,7 +65,7 @@ body{
   position: relative;
 }
 
-@media (max-height: 550px){
+@media (max-height: 750px){
   .store{
     height: max-content;
   }
@@ -78,8 +78,8 @@ body{
   height: 100%;
   top: 0;
   left: 0;
-  background-color: #141415a2;
-  backdrop-filter: blur(110px);
+  background-color: rgba(20, 20, 21, 0.635);
+  
 }
 
 .container{
@@ -607,7 +607,6 @@ input[type="checkbox"]{
   width: 100%;
   border-radius: 20px;
   background-color: rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(13px);
 }
 
 .content .featured .game-info .info .content{
