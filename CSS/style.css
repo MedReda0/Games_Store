@@ -722,6 +722,11 @@ input[type="checkbox"]{
   color: white;
   font-size: 12px;
   font-weight: 300;
+  transition: .3s;
+}
+
+.sp-offers .heading a:hover{
+  color: var(--orange);
 }
 
 .sp-offers .games{
