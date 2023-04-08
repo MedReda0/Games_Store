@@ -16,7 +16,6 @@
 
 html{
   scroll-behavior: smooth;
-  overflow-x: hidden;
 }
 
 ul{
@@ -108,7 +107,7 @@ input[type="checkbox"]{
 
 @media (max-width: 768px){
   .sidebar{
-    width: 30px;
+    width: 0;
   }
   input[type="checkbox"]:checked ~ .sidebar{
     width: 180px;
@@ -124,7 +123,8 @@ input[type="checkbox"]{
   .sidebar .fi-br-menu-burger{
     display: block;
     position: absolute;
-    top: 10px;
+    top: 9px;
+    width: 30px;
   }
 }
 
@@ -215,7 +215,7 @@ input[type="checkbox"]{
 
 @media (max-width: 768px){
   .content{
-    width: calc(100% - 35px);
+    width: 100%;
   }
 }
 
@@ -223,6 +223,12 @@ input[type="checkbox"]{
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+@media (max-width: 768px){
+  .content header .search{
+    margin-left: 35px;
+  }
 }
 
 .content header .search img{
