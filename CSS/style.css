@@ -55,7 +55,7 @@ body{
 }
 
 .store{
-  height: 100vh;
+  height: 102vh;
   width: calc(100% + 5px);
   background-image: url(../images/wallpaper.jpg);
   background-repeat: no-repeat;
@@ -86,6 +86,7 @@ body{
   padding: 25px;
   display: flex;
   overflow-x: hidden;
+  height: 100%;
 }
 
 @media (max-width: 768px){
