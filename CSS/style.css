@@ -460,6 +460,7 @@ input[type="checkbox"]{
   font-weight: 200;
   position: relative;
   transition: .3s;
+  cursor: pointer;
 }
 
 @media (max-width: 768px){
